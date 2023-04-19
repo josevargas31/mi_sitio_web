@@ -40,12 +40,11 @@ h1, h2 {
     text-align: center;
 }
 .fondo {
-    
-    background-image: url(../img/imagen.png);
+    background-image: url(../img/imagen_1000x563.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    }
+}
 h3 {
     color: rgb(220, 220, 220);
     display: flex;
