@@ -74,7 +74,7 @@ form {
     border: 1px solid rgb(240, 0, 0);
     width: 600px;
     margin-top: 80px;
-    font-weight: 900;
+   
 }
 input[type="radio"], input[type="chrckbox"] {
 margin-top: 15px;
