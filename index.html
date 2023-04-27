@@ -4,86 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio web</title>
+    <title>Loagin</title>
     <link rel="stylesheet" href="css/index.css">
+    
+    
 </head>
 <body>
-    <script>
-        function rain(){
-    let amount = 25;
-    let body = document.querySelector('body');
-    let i = 0;
-    while (i < amount){
-        let drop = document.createElement('i');
-
-        let size = Math.random() * 5;
-        let posX = Math.floor(Math.random() * window.innerWidth);
-        let delay = Math.random() * -20;
-        let duration = Math.random() * 5;
-
-
-
-        drop.style.width = 0.2 + size+'px'
-        drop.style.left = posX + 'px';
-        drop.style.animationDelay = delay+'s';
-        drop.style.animationDuration = 1 + duration+'s';
-        body.appendChild(drop);
-        i++
-    }
-}
-rain();
-    </script>
+    <script src="js/index.js"></script>
+    <div class="container" id="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <span class="loading" id="iniciar">Cargando...</span>
+    </div>
     
-    <h1>Bienvenidos a mi sitio web</h1>
-    <h2>Autor: Jose</h2>
-    
-
-<h3>Fuentes</h3>
-    <ul class="lista">
-        <button class="boto1"><li><a href="fuentes.html" class="rayas" style=" color: rgb(211, 211, 211);">NETFLIX</a></li>
-        <button class="boto1"><li><a href="fuenteslocal.html" class="rayas" style=" color: rgb(211, 211, 211);">Disney+</a></li>
-        <button class="boto1"><li><a href="fuentes1.html" class="rayas" style=" color: rgb(211, 211, 211);">GAME OF THRONES</a></li>
-    </ul>
-    </button>
-        <body class="fondo"></body>
-            
         
-<h3>Listas</h3>
-    <ul class="lista">
-        <button class="boto1"><li><a href="listas.html" class="rayas" style=" color: rgb(211, 211, 211);">Listas</a></li>
-    </ul>
-    </button>
-    
-<h3>Colores</h3>
-    <ul class="lista">
-        <button class="boto1"><li><a href="colores.html" class="rayas" style=" color: rgb(211, 211, 211);">colores</a></li>
-        <button class="boto1"><li><a href="margins.html" class="rayas" style=" color: rgb(211, 211, 211);">Margins</a></li>
-    </ul>
-    </button>
-<h3>Imagenes</h3>
-<ul class="lista">
-    <button class="boto1"><li><a href="catalago.html" class="rayas" style=" color: rgb(211, 211, 211);">Catalogo</a></li>
-</ul>
-</button>
-
-<h3>Tablas</h3>
-<ul class="lista">
-    <button class="boto1"><li><a href="tablas.html" class="rayas" style=" color: rgb(211, 211, 211);">Tablas</a></li>
-</ul>
-</button>
-
-<h3>Formulario</h3>
-<ul class="lista">
-    <button class="boto1"><li><a href="formulario.html" class="rayas" style=" color: rgb(211, 211, 211);">Formulario</a></li>
-</ul>
-</button>
-
-<h3>Menu</h3>
-<ul class="lista">
-    <button class="boto1"><li><a href="menu-iconos.html" class="rayas" style=" color: rgb(211, 211, 211);">Menu-iconos</a></li>
-</ul>
-</button>
-
-
 </body>
 </html>

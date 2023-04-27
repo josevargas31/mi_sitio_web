@@ -1,0 +1,97 @@
+body {
+    background-color:  rgb(192, 192, 192);
+}
+.boto1 {
+    list-style: none; /* Para quitar el boton de inicio en los link */
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 14px; /* Se establece el tamaño de la fuente */
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    outline: none; 
+    color: rgb(225, 0, 0); /* El puento del boton */
+    background-color: rgb(128, 128, 128); /* Color del fondo del boton */
+    border: none; /* Se le hace un color de borde dependiendo de los siguientes datos, ej {2px solid red) se utilizaria sin las comillas */
+    border-radius: 15px;/* Cambia las esquinas rodondeandolo */
+ 
+    box-shadow: 0 9px rgb(105, 105, 105); /* Sombra del boton */
+    margin-right: 20px; /* separar los botones */
+
+    border-radius: 10px;
+    border: 5px solid rgb(220, 220, 220);
+    margin-top: 5px;
+}
+button:hover {
+    border-radius: 8px;
+    border: 8px double rgb(105, 105, 105);
+    box-shadow: 0 0 10px rgb(244, 164, 96), 0 0 15px rgb(220, 220, 220), 0 0 20px rgb(160, 82, 45);
+}
+.lista { /* Para centar el boton */
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2 {
+    text-align: center;
+}
+.fondo {
+    background-image: url(../img/imagen_1000x563.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h3 {
+    color: rgb(220, 220, 220);
+    display: flex;
+   justify-content: center;
+    }
+h1 {
+    color: rgb(169, 169, 169);
+    display: flex;
+   justify-content: center;
+    }
+h2 {
+     color: rgb(128, 128, 128);
+     display: flex;
+   justify-content: center;
+}
+i {
+    position: absolute;
+    height: 200px;
+    background: linear-gradient(transparent, #fff);
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation: animate 5s linear infinite ;
+}
+i:nth-child(3n+1)
+{
+background: linear-gradient(transparent, #0ff);
+}
+i:nth-child(3n+2)
+{
+background: linear-gradient(transparent, #0ff);
+}
+i:nth-child(3n+3)
+{
+background: linear-gradient(transparent, #0f0);
+}
+i:nth-child(3n+4)
+{
+background: linear-gradient(transparent, #f00);
+}
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateY(-200px);
+    }
+    100%
+    {
+        transform: translateY(calc(100vh + 200px));
+    }
+}
