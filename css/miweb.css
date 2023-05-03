@@ -62,11 +62,11 @@ h2 {
 }
 i {
     position: absolute;
-    height: 200px;
+    height: 200px; 
     background: linear-gradient(transparent, #fff);
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
-    animation: animate 5s linear infinite ;
+    animation: animate 3s linear infinite ;
 }
 i:nth-child(3n+1)
 {
@@ -92,6 +92,6 @@ background: linear-gradient(transparent, #f00);
     }
     100%
     {
-        transform: translateY(calc(100vh + 200px));
+        transform: translateY(calc(160vh + 200px));
     }
 }
