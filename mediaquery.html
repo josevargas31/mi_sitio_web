@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mediaquery</title>
     <link rel="stylesheet" href="css/mediaquery.css">
     <link rel="stylesheet" href="icons/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 </head>
 <body>
+    <div class="navigation">
+        <div class="menuToggle"></div>
+        <ul>
+            <li class="list active">
+                <a href="#" style="--clr:#f44336;">
+                    <span class="icon">
+                        <ion-ion class="fa-solid fa-house"></ion-ion>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#ffa117;">
+                    <span class="icon">
+                        <ion-ion class="fa-regular fa-address-card"></ion-ion>
+                    </span>
+                    <span class="text">About</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#0fc70f;">
+                    <span class="icon">
+                        <ion-ion class="fa-regular fa-comment"></ion-ion>
+                    </span>
+                    <span class="text">Messages</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#2196f3;">
+                    <span class="icon">
+                        <ion-ion class="fa-solid fa-camera"></ion-ion>
+                    </span>
+                    <span class="text">Photos</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#" style="--clr:#b145e9;">
+                    <span class="icon">
+                        <ion-ion class="fa-solid fa-gears"></ion-ion>
+                    </span>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    <script src="js/media-query.js"></script>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/c/ionicons.esm.js"></script>
+    <script nomedule src="https://unpkg.com/ionicons@5.5.2/dist/c/ionicons.esm.js"></script>
+</body>
+</html>
+<!-- getbootstrap.com -->
+<!-- 
 <nav class="main-nav">
     <label id="barMenu" class="bar-menu">&#9776</label>
         <ul id="mainMenu" class="main-menu">
@@ -18,11 +72,4 @@
             <li class="item-main-menu"><a class="href-item" href="#">Rastreos</a></li>
             <li class="item-main-menu"><a class="href-item" href="#">Servicios</a></li>
             <li class="item-main-menu"><a class="href-item" href="#">Contactenos</a></li>
-        </ul>
-    </nav>
-
-    <script src="js/media-query.js"></script>
-    
-</body>
-</html>
-<!-- getbootstrap.com -->
+        </ul> -->

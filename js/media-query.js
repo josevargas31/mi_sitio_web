@@ -1,4 +1,18 @@
-let barMenu = document.getElementById("barMenu");
+$(document).ready(function () {
+  $('.menuToggle').click(function () {
+    $('.navigation').toggleClass('active');
+  });
+
+  $('.list').click(function () {
+    $('.list').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
+
+
+
+/* let barMenu = document.getElementById("barMenu");
 let main_Menu = document.getElementById("mainMenu");
 
 barMenu.addEventListener("click", function () {
@@ -10,4 +24,4 @@ barMenu.addEventListener("click", function () {
     main_Menu.classList.remove("main-menu-visible");
     main_Menu.classList.add("main-menu");
   }
-});
+}); */
